@@ -10,11 +10,44 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: blue;
  } */
- #home{
+ /* #home{
     background-color: burlywood;
  }
  .class{
     background-color: black;
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+ } */
+/* descendent */
+ div~p{
+   background-color: brown;
+   color: white;
+
+ }
+
+ /* p:hover{
+   font-size: xx-large;
+   background-color: aqua;
+ } */
+
+ p::after{
+   content:"ABES Engineering College";
+   background-color: coral;
+   color: white;
+ }
+ p::before{
+   content:"We are the student of third year CS B ";
+   background-color: brown;
+   color: white;
+ }
+ p::selection{
+   background-color: chartreuse;
+ }
+ p:nth-child(2){
+   background-color: black;
+   color: white;
+ }
+ div p:nth-of-type(1){
+   background-color: aqua;
+   font-size: xx-small;
  }
