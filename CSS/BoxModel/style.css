@@ -1,0 +1,20 @@
+/* body{
+    background-color: black;
+} */
+
+.box{
+    height:400px;
+    width: 430px;
+    border: 1px solid blue;
+    background-color: chartreuse;
+    /* margin: 20px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    padding:20px;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    border: 1 px solid red;
+    background-color: rgb(24, 98, 182);
+}
